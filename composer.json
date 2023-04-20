@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "upassist/nodesync",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "UpAssist\\NodeSync\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "UpAssist.NodeSync"
+        }
+    }
+}
